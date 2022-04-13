@@ -1,0 +1,14 @@
+.mini-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+}
+
+.mg-cell {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 30;
+    padding: 10px;
+    min-width: 25px;
+    max-width: 50px;
+}
